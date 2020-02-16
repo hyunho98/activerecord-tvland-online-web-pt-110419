@@ -8,6 +8,6 @@ class Show < ActiveRecord::Base
   end
 
   def build_network(attributes)
-    Network.create(attributes)
+    network = Network.create(attributes)
   end
 end
