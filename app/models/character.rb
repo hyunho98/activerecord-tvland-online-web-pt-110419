@@ -7,6 +7,6 @@ class Character < ActiveRecord::Base
   end
 
   def build_show(attributes)
-    self.show.create(attributes)
+    Show.create(attributes)
   end
 end
